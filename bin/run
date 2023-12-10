@@ -1,1 +1,7 @@
-../lib/run.js
+#!/bin/bash
+
+set -e
+
+cd $(dirname "${BASH_SOURCE}")
+cd ..
+exec node lib/run.js
