@@ -13,9 +13,10 @@
   "author": "spam-me@copblock.app",
   "license": "ISC",
   "dependencies": {
-    "bip39": "^3.1.0",
     "@bitauth/libauth": "^2.0.0-alpha.8",
     "@cashscript/utils": "^0.9.2",
+    "@copblock/json-rw": "^1.0.0",
+    "bip39": "^3.1.0",
     "recursive-readdir-sync": "^1.0.6"
   }
 }
