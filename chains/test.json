@@ -1,0 +1,104 @@
+{
+   "bch" : {
+      "hashGenesisBlock" : "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+      "name" : "BitcoinCash",
+      "per1" : 100000000,
+      "port" : 18333,
+      "portRpc" : 18332,
+      "protocol" : {
+         "magic" : 4109624820
+      },
+      "seedsDns" : [
+         "testnet-seed.bitcoinabc.org",
+         "testnet-seed-abc.bitcoinforks.org",
+         "testnet-seed.bitprim.org",
+         "testnet-seed.deadalnix.me",
+         "testnet-seeder.criptolayer.net"
+      ],
+      "unit" : "BCH",
+      "versions" : {
+         "bip32" : {
+            "private" : 70615956,
+            "public" : 70617039
+         },
+         "bip44" : 1,
+         "private" : 239,
+         "public" : 111,
+         "scripthash" : 196
+      }
+   },
+   "btc" : {
+      "bech32" : "tb",
+      "hashGenesisBlock" : "000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943",
+      "messagePrefix" : "\u0018Bitcoin Signed Message:\n",
+      "name" : "Bitcoin",
+      "per1" : 100000000,
+      "port" : 18333,
+      "portRpc" : 18332,
+      "protocol" : {
+         "magic" : 118034699
+      },
+      "seedsDns" : [
+         "testnet-seed.alexykot.me",
+         "testnet-seed.bitcoin.schildbach.de",
+         "testnet-seed.bitcoin.petertodd.org",
+         "testnet-seed.bluematt.me"
+      ],
+      "unit" : "BTC",
+      "versions" : {
+         "bip32" : {
+            "private" : 70615956,
+            "public" : 70617039
+         },
+         "bip44" : 1,
+         "private" : 239,
+         "public" : 111,
+         "scripthash" : 196
+      }
+   },
+   "dash" : {
+      "hashGenesisBlock" : "00000bafbc94add76cb75e2ec92894837288a481e5c005f6563d91623bf8bc2c",
+      "name" : "Dash",
+      "port" : 19999,
+      "portRpc" : 19998,
+      "seedsDns" : [
+         "dashdot.io",
+         "testnet-seed.dashdot.io",
+         "masternode.io",
+         "test.dnsseed.masternode.io"
+      ],
+      "unit" : "DASH",
+      "versions" : {
+         "bip32" : {
+            "private" : 70615956,
+            "public" : 70617039
+         },
+         "bip44" : 1,
+         "private" : 239,
+         "public" : 140,
+         "scripthash" : 19
+      }
+   },
+   "doge" : {
+      "hashGenesisBlock" : "bb0a78264637406b6360aad926284d544d7049f45189db5664f3c4d07350559e",
+      "name" : "Dogecoin",
+      "port" : 44556,
+      "protocol" : {
+         "magic" : 4240553948
+      },
+      "seedsDns" : [
+         "testseed.jrn.me.uk"
+      ],
+      "unit" : "DOGE",
+      "versions" : {
+         "bip32" : {
+            "private" : 70615956,
+            "public" : 70617039
+         },
+         "bip44" : 1,
+         "private" : 241,
+         "public" : 113,
+         "scripthash" : 196
+      }
+   }
+}
